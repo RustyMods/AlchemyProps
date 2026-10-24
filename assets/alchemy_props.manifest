@@ -1,0 +1,179 @@
+ManifestFileVersion: 0
+UnityVersion: 6000.0.75f1
+CRC: 1693084163
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: b0e3b08cb24f6b511bb07256aaf8d084
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: e24304b5526d9b08413583035565b467
+  IncrementalBuildHash:
+    serializedVersion: 2
+    Hash: 7f0aed91662804cf91c5c3b6adf19237
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 4
+  Script: {instanceID: 0}
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 23
+  Script: {instanceID: 0}
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 33
+  Script: {instanceID: 0}
+- Class: 43
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+- Class: 64
+  Script: {instanceID: 0}
+- Class: 65
+  Script: {instanceID: 0}
+- Class: 108
+  Script: {instanceID: 0}
+- Class: 114
+  Script: {fileID: 1521249158, guid: c1b78fa918b030faf1c1f6f6164daeb2, type: 3}
+- Class: 114
+  Script: {fileID: -1787775113, guid: c1b78fa918b030faf1c1f6f6164daeb2, type: 3}
+- Class: 114
+  Script: {fileID: 1790797106, guid: c1b78fa918b030faf1c1f6f6164daeb2, type: 3}
+- Class: 114
+  Script: {fileID: -1336540859, guid: c1b78fa918b030faf1c1f6f6164daeb2, type: 3}
+- Class: 114
+  Script: {fileID: 2053127972, guid: c1b78fa918b030faf1c1f6f6164daeb2, type: 3}
+- Class: 114
+  Script: {fileID: 2094620348, guid: c1b78fa918b030faf1c1f6f6164daeb2, type: 3}
+- Class: 114
+  Script: {fileID: 895252998, guid: c1b78fa918b030faf1c1f6f6164daeb2, type: 3}
+- Class: 115
+  Script: {instanceID: 0}
+- Class: 198
+  Script: {instanceID: 0}
+- Class: 199
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers:
+- AssemblyName: assembly_valheim
+  ClassName: DropTable
+- AssemblyName: assembly_valheim
+  ClassName: EffectList
+- AssemblyName: assembly_valheim
+  ClassName: HitData/DamageModifiers
+Assets:
+- Assets/Multistory Dungeons 2/Pieces/Furniture/piece_alchemy_shelf_1.prefab
+- Assets/Multistory Dungeons 2/Pieces/piece_alchemy_lamp.prefab
+- Assets/Multistory Dungeons 2/Pieces/Furniture/piece_alchemy_chair_2.prefab
+- Assets/Multistory Dungeons 2/Pieces/Furniture/piece_alchemy_cupboard_3.prefab
+- Assets/Multistory Dungeons 2/Pieces/Candles/piece_alchemy_candlestick_floor_1.prefab
+- Assets/Multistory Dungeons 2/Pieces/Candles/piece_alchemy_candle_1.prefab
+- Assets/Multistory Dungeons 2/Pieces/Books/piece_alchemy_bookpile_6.prefab
+- Assets/Multistory Dungeons 2/Pieces/Candles/piece_alchemy_candlestick.prefab
+- Assets/Multistory Dungeons 2/Pieces/Bottles/piece_alchemy_glass_jar_1.prefab
+- Assets/Multistory Dungeons 2/Pieces/Bottles/piece_alchemy_potion_4.prefab
+- Assets/Multistory Dungeons 2/Pieces/Furniture/piece_alchemy_chair_1.prefab
+- Assets/Multistory Dungeons 2/Pieces/Furniture/piece_alchemy_shelf_preset_4.prefab
+- Assets/Multistory Dungeons 2/Pieces/Books/piece_alchemy_book_7.prefab
+- Assets/Multistory Dungeons 2/Pieces/Furniture/piece_alchemy_cupboard_preset_5.prefab
+- Assets/Multistory Dungeons 2/Textures/Materials/Candle_Fire_FX_Material_03.mat
+- Assets/Multistory Dungeons 2/Pieces/Candles/piece_alchemy_candles_1.prefab
+- Assets/Multistory Dungeons 2/Pieces/Books/piece_alchemy_book_3.prefab
+- Assets/Multistory Dungeons 2/Pieces/Furniture/piece_alchemy_cupboard_large_preset_2.prefab
+- Assets/Multistory Dungeons 2/Pieces/Furniture/piece_alchemy_cupboard_preset_3.prefab
+- Assets/Multistory Dungeons 2/Pieces/Furniture/piece_alchemy_rostrum_1.prefab
+- Assets/Multistory Dungeons 2/Pieces/Bottles/piece_alchemy_potion_5.prefab
+- Assets/Multistory Dungeons 2/Pieces/Furniture/piece_alchemy_ladder_angled_3.prefab
+- Assets/Multistory Dungeons 2/Pieces/Books/piece_alchemy_book_11.prefab
+- Assets/Multistory Dungeons 2/Pieces/Furniture/piece_alchemy_shelf_preset_2.prefab
+- Assets/Multistory Dungeons 2/Pieces/piece_alchemy_bucket.prefab
+- Assets/Multistory Dungeons 2/Pieces/piece_alchemy_lantern.prefab
+- Assets/Multistory Dungeons 2/Pieces/Furniture/piece_alchemy_cupboard_1.prefab
+- Assets/Multistory Dungeons 2/Textures/Materials/Atlas_Props_01.mat
+- Assets/Multistory Dungeons 2/Pieces/Bottles/piece_alchemy_potion_2.prefab
+- Assets/Multistory Dungeons 2/Pieces/Furniture/piece_alchemy_cupboard_5.prefab
+- Assets/Multistory Dungeons 2/Pieces/Bottles/piece_alchemy_potion_6.prefab
+- Assets/Multistory Dungeons 2/Pieces/Books/piece_alchemy_paperstack_1.prefab
+- Assets/Multistory Dungeons 2/Pieces/Bottles/piece_alchemy_flask_2.prefab
+- Assets/Multistory Dungeons 2/Pieces/Furniture/piece_alchemy_cupboard_preset_4.prefab
+- Assets/Multistory Dungeons 2/Pieces/Bottles/piece_alchemy_flask_4.prefab
+- Assets/Multistory Dungeons 2/Pieces/Furniture/piece_alchemy_cupboard_preset_8.prefab
+- Assets/Multistory Dungeons 2/Textures/Materials/Halo_FX_Material_01.mat
+- Assets/Multistory Dungeons 2/Pieces/Bottles/piece_alchemy_retort.prefab
+- Assets/Multistory Dungeons 2/Pieces/Candles/piece_alchemy_candles_3.prefab
+- Assets/Multistory Dungeons 2/Textures/Materials/Atlas_Furniture_01.mat
+- Assets/Multistory Dungeons 2/Pieces/Books/piece_alchemy_book_5.prefab
+- Assets/Multistory Dungeons 2/Pieces/Furniture/piece_alchemy_cupboard_large_preset_3.prefab
+- Assets/Multistory Dungeons 2/Pieces/Furniture/piece_alchemy_ladder_angled_1.prefab
+- Assets/Multistory Dungeons 2/Pieces/Bottles/piece_alchemy_ink_pot.prefab
+- Assets/Multistory Dungeons 2/Pieces/Bottles/piece_alchemy_bottle_2.prefab
+- Assets/Multistory Dungeons 2/Pieces/Candles/piece_alchemy_candle_2.prefab
+- Assets/Multistory Dungeons 2/Pieces/Candles/piece_alchemy_candles_5.prefab
+- Assets/Multistory Dungeons 2/Pieces/piece_alchemy_barrel_2.prefab
+- Assets/Multistory Dungeons 2/Pieces/Books/piece_alchemy_paper_4.prefab
+- Assets/Multistory Dungeons 2/Pieces/Candles/piece_alchemy_candle_4.prefab
+- Assets/Multistory Dungeons 2/Pieces/Bottles/piece_alchemy_bottle_3.prefab
+- Assets/Multistory Dungeons 2/Pieces/Furniture/piece_alchemy_shelf_preset_3.prefab
+- Assets/Multistory Dungeons 2/Pieces/Bottles/piece_alchemy_glass_jar_2.prefab
+- Assets/Multistory Dungeons 2/Pieces/Furniture/piece_alchemy_cupboard_large_preset_1.prefab
+- Assets/Multistory Dungeons 2/Textures/Materials/Smoke_FX_Material_02.mat
+- Assets/Multistory Dungeons 2/Pieces/Bottles/piece_alchemy_stand_1.prefab
+- Assets/Multistory Dungeons 2/Pieces/Furniture/piece_alchemy_cupboard_preset_1.prefab
+- Assets/Multistory Dungeons 2/Pieces/Furniture/piece_alchemy_cupboard_preset_6.prefab
+- Assets/Multistory Dungeons 2/Pieces/Furniture/piece_alchemy_bench_2.prefab
+- Assets/Multistory Dungeons 2/Textures/Materials/Fire_FX_Material_02.mat
+- Assets/Multistory Dungeons 2/Pieces/Books/piece_alchemy_book_4.prefab
+- Assets/Multistory Dungeons 2/Pieces/Candles/piece_alchemy_candlestick_floor_2.prefab
+- Assets/Multistory Dungeons 2/Pieces/Furniture/piece_alchemy_cupboard_preset_2.prefab
+- Assets/Multistory Dungeons 2/Pieces/Bottles/piece_alchemy_bottle_1.prefab
+- Assets/Multistory Dungeons 2/Pieces/Furniture/piece_alchemy_cupboard_preset_9.prefab
+- Assets/Multistory Dungeons 2/Pieces/Bottles/piece_alchemy_flask_1.prefab
+- Assets/Multistory Dungeons 2/Pieces/Bottles/piece_alchemy_scale_1.prefab
+- Assets/Multistory Dungeons 2/Pieces/Books/piece_alchemy_book_10.prefab
+- Assets/Multistory Dungeons 2/Pieces/Furniture/piece_alchemy_drawer.prefab
+- Assets/Multistory Dungeons 2/Pieces/piece_alchemy_jug_3.prefab
+- Assets/Multistory Dungeons 2/Pieces/Bottles/piece_alchemy_potion_1.prefab
+- Assets/Multistory Dungeons 2/Pieces/piece_alchemy_jug_1.prefab
+- Assets/Multistory Dungeons 2/Pieces/Books/piece_alchemy_scroll.prefab
+- Assets/Multistory Dungeons 2/Pieces/Furniture/piece_alchemy_bench_1.prefab
+- Assets/Multistory Dungeons 2/Textures/Materials/Atlas_Props_02.mat
+- Assets/Multistory Dungeons 2/Pieces/Books/piece_alchemy_book_2.prefab
+- Assets/Multistory Dungeons 2/Pieces/Books/piece_alchemy_book_9.prefab
+- Assets/Multistory Dungeons 2/Pieces/Bottles/piece_alchemy_gas_burner.prefab
+- Assets/Multistory Dungeons 2/Pieces/Books/piece_alchemy_paperstack_2.prefab
+- Assets/Multistory Dungeons 2/Pieces/Furniture/piece_alchemy_ladder_angled_2.prefab
+- Assets/Multistory Dungeons 2/Pieces/piece_alchemy_torch_wall.prefab
+- Assets/Multistory Dungeons 2/Pieces/Furniture/piece_alchemy_table_1.prefab
+- Assets/Multistory Dungeons 2/Pieces/Books/piece_alchemy_bookpile_3.prefab
+- Assets/Multistory Dungeons 2/Pieces/Books/piece_alchemy_book_6.prefab
+- Assets/Multistory Dungeons 2/Pieces/Books/piece_alchemy_bookpile_1.prefab
+- Assets/Multistory Dungeons 2/Pieces/piece_alchemy_barrel_1.prefab
+- Assets/Multistory Dungeons 2/Pieces/Furniture/piece_alchemy_cupboard_4.prefab
+- Assets/Multistory Dungeons 2/Pieces/Books/piece_alchemy_paper_5.prefab
+- Assets/Multistory Dungeons 2/Pieces/Bottles/piece_alchemy_flask_3.prefab
+- Assets/Multistory Dungeons 2/Pieces/Furniture/piece_alchemy_cupboard_2.prefab
+- Assets/Multistory Dungeons 2/Pieces/Books/piece_alchemy_bookpile_2.prefab
+- Assets/Multistory Dungeons 2/Pieces/Furniture/piece_alchemy_rostrum_2.prefab
+- Assets/Multistory Dungeons 2/Pieces/Candles/piece_alchemy_candle_3.prefab
+- Assets/Multistory Dungeons 2/Pieces/Bottles/piece_alchemy_mortar.prefab
+- Assets/Multistory Dungeons 2/Pieces/Furniture/piece_alchemy_ladder.prefab
+- Assets/Multistory Dungeons 2/Pieces/Books/piece_alchemy_bookpile_5.prefab
+- Assets/Multistory Dungeons 2/Pieces/Furniture/piece_alchemy_table_2.prefab
+- Assets/Multistory Dungeons 2/Pieces/Bottles/piece_alchemy_stand_2.prefab
+- Assets/Multistory Dungeons 2/Pieces/Candles/piece_alchemy_candles_2.prefab
+- Assets/Multistory Dungeons 2/Pieces/Books/piece_alchemy_paper_3.prefab
+- Assets/Multistory Dungeons 2/Pieces/Bottles/piece_alchemy_cup.prefab
+- Assets/Multistory Dungeons 2/Pieces/Bottles/piece_alchemy_potion_3.prefab
+- Assets/Multistory Dungeons 2/Pieces/Books/piece_alchemy_paper_2.prefab
+- Assets/Multistory Dungeons 2/Pieces/Bottles/piece_alchemy_flask_5.prefab
+- Assets/Multistory Dungeons 2/Pieces/piece_alchemy_jug_2.prefab
+- Assets/Multistory Dungeons 2/Pieces/Furniture/piece_alchemy_shelf_preset_1.prefab
+- Assets/Multistory Dungeons 2/Pieces/Furniture/piece_alchemy_cupboard_preset_7.prefab
+- Assets/Multistory Dungeons 2/Pieces/Books/piece_alchemy_bookpile_4.prefab
+- Assets/Multistory Dungeons 2/Pieces/Candles/piece_alchemy_candles_4.prefab
+- Assets/Multistory Dungeons 2/Textures/Materials/Atlas_Props_Glass.mat
+- Assets/Multistory Dungeons 2/Pieces/Books/piece_alchemy_book_8.prefab
+- Assets/Multistory Dungeons 2/Pieces/Bottles/piece_alchemy_sandglass.prefab
+- Assets/Multistory Dungeons 2/Pieces/Books/piece_alchemy_book_1.prefab
+Dependencies: []
