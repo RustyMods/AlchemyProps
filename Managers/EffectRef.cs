@@ -2,26 +2,10 @@ using System;
 using System.Collections.Generic;
 using HarmonyLib;
 
-namespace RavenwoodRome;
+namespace AlchemyProps;
 
 public class EffectListRef
 {
-    [HarmonyPatch(typeof(ZNetScene), nameof(ZNetScene.Awake))]
-    private static class ZNetScene_Awake_Patch
-    {
-        private static void Postfix() => LoadAll();
-    }
-    private static readonly List<EffectListRef> m_effectListRefs = [];
-
-    public static void LoadAll()
-    {
-        for (int i = 0; i < m_effectListRefs.Count; ++i)
-        {
-            var effectRef = m_effectListRefs[i];
-            effectRef.Load();
-        }
-    }
-
     public static implicit operator EffectList(EffectListRef elf) => elf.m_effectList; 
     
     public readonly EffectList m_effectList = new  EffectList();
@@ -38,16 +22,16 @@ public class EffectListRef
         }
 
         m_effectRefs = refs.ToArray();
-        m_effectListRefs.Add(this);
+        EffectListManager.m_effectListRefs.Add(this);
     }
 
     public EffectListRef(params EffectRef[] effectRefs)
     {
         m_effectRefs = effectRefs;
-        m_effectListRefs.Add(this);
+        EffectListManager.m_effectListRefs.Add(this);
     }
 
-    private void Load()
+    public void Load()
     {
         List<EffectList.EffectData> list = [];
         for (int i = 0; i < m_effectRefs.Length; ++i)

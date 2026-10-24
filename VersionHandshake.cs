@@ -9,11 +9,11 @@ public static class VersionHandshake
     private static bool load;
     public static readonly List<ZRpc> ValidatedPeers;
     internal static string ConnectionError = "";
-    
+
     static VersionHandshake()
     {
         ValidatedPeers = [];
-        
+
         AlchemyPropsPlugin.harmony.Patch(
             AccessTools.DeclaredMethod(typeof(ZNet), nameof(ZNet.OnNewConnection)),
             new HarmonyMethod(AccessTools.DeclaredMethod(typeof(VersionHandshake),
@@ -30,7 +30,7 @@ public static class VersionHandshake
     }
 
     public static void Init() => load = true;
-    
+
     private static void ZNet_OnNewConnection_Prefix(ZNetPeer peer, ref ZNet __instance)
     {
         // Register version check call
@@ -80,8 +80,8 @@ public static class VersionHandshake
             $"Peer ({peer.m_rpc.m_socket.GetHostName()}) disconnected, removing from validated list");
         _ = ValidatedPeers.Remove(peer.m_rpc);
     }
-    
-    
+
+
     public static void RPC_AlchemyProps_Version(ZRpc rpc, ZPackage pkg)
     {
         var version = pkg.ReadString();

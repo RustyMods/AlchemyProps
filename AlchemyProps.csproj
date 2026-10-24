@@ -123,18 +123,22 @@
         </Reference>
     </ItemGroup>
     <ItemGroup>
+        <Compile Include="Behaviours\LightToggle.cs" />
         <Compile Include="Managers\ConfigManager.cs"/>
-        <Compile Include="Managers\CreatureManager.cs"/>
-        <Compile Include="Managers\ItemDataManager.cs"/>
-        <Compile Include="Managers\ItemManager.cs"/>
-        <Compile Include="Managers\LocalizationManager.cs"/>
-        <Compile Include="Managers\LocationManager.cs"/>
+        <Compile Include="Managers\EffectListManager.cs" />
+        <Compile Include="Managers\EffectRef.cs" />
+        <Compile Include="Managers\IconExport.cs" />
+        <Compile Include="Managers\PieceManager\MaterialData.cs" />
         <Compile Include="Managers\PieceManager\MaterialReplacer.cs"/>
         <Compile Include="Managers\PieceManager\PieceManager.cs"/>
-        <Compile Include="Managers\PieceManager\SnapPointMaker.cs"/>
         <Compile Include="Managers\PrefabManager.cs"/>
-        <Compile Include="Managers\SkillManager.cs"/>
-        <Compile Include="Managers\StatusEffectManager.cs"/>
+        <Compile Include="Managers\ReadMeBuilder.cs" />
+        <Compile Include="Pieces\Assets.cs" />
+        <Compile Include="Pieces\Books.cs" />
+        <Compile Include="Pieces\Bottles.cs" />
+        <Compile Include="Pieces\Candles.cs" />
+        <Compile Include="Pieces\Furniture.cs" />
+        <Compile Include="Pieces\Misc.cs" />
         <Compile Include="Plugin.cs"/>
         <Compile Include="Properties\AssemblyInfo.cs"/>
         <Compile Include="VersionHandshake.cs"/>
@@ -144,16 +148,121 @@
     </ItemGroup>
     <ItemGroup>
         <Content Include=".gitignore"/>
+        <EmbeddedResource Include="assets\alchemy_props" />
+        <Content Include="assets\alchemy_props.manifest" />
         <Content Include="environment.props"/>
+        <Content Include="icons\piece_alchemy_barrel_1.png" />
+        <Content Include="icons\piece_alchemy_barrel_2.png" />
+        <Content Include="icons\piece_alchemy_bench_1.png" />
+        <Content Include="icons\piece_alchemy_bench_2.png" />
+        <Content Include="icons\piece_alchemy_bookpile_1.png" />
+        <Content Include="icons\piece_alchemy_bookpile_2.png" />
+        <Content Include="icons\piece_alchemy_bookpile_3.png" />
+        <Content Include="icons\piece_alchemy_bookpile_4.png" />
+        <Content Include="icons\piece_alchemy_bookpile_5.png" />
+        <Content Include="icons\piece_alchemy_bookpile_6.png" />
+        <Content Include="icons\piece_alchemy_book_1.png" />
+        <Content Include="icons\piece_alchemy_book_10.png" />
+        <Content Include="icons\piece_alchemy_book_11.png" />
+        <Content Include="icons\piece_alchemy_book_2.png" />
+        <Content Include="icons\piece_alchemy_book_3.png" />
+        <Content Include="icons\piece_alchemy_book_4.png" />
+        <Content Include="icons\piece_alchemy_book_5.png" />
+        <Content Include="icons\piece_alchemy_book_6.png" />
+        <Content Include="icons\piece_alchemy_book_7.png" />
+        <Content Include="icons\piece_alchemy_book_8.png" />
+        <Content Include="icons\piece_alchemy_book_9.png" />
+        <Content Include="icons\piece_alchemy_bottle_1.png" />
+        <Content Include="icons\piece_alchemy_bottle_2.png" />
+        <Content Include="icons\piece_alchemy_bottle_3.png" />
+        <Content Include="icons\piece_alchemy_bucket.png" />
+        <Content Include="icons\piece_alchemy_candlestick.png" />
+        <Content Include="icons\piece_alchemy_candlestick_floor_1.png" />
+        <Content Include="icons\piece_alchemy_candlestick_floor_2.png" />
+        <Content Include="icons\piece_alchemy_candles_1.png" />
+        <Content Include="icons\piece_alchemy_candles_2.png" />
+        <Content Include="icons\piece_alchemy_candles_3.png" />
+        <Content Include="icons\piece_alchemy_candles_4.png" />
+        <Content Include="icons\piece_alchemy_candles_5.png" />
+        <Content Include="icons\piece_alchemy_candle_1.png" />
+        <Content Include="icons\piece_alchemy_candle_2.png" />
+        <Content Include="icons\piece_alchemy_candle_3.png" />
+        <Content Include="icons\piece_alchemy_candle_4.png" />
+        <Content Include="icons\piece_alchemy_chair_1.png" />
+        <Content Include="icons\piece_alchemy_chair_2.png" />
+        <Content Include="icons\piece_alchemy_cup.png" />
+        <Content Include="icons\piece_alchemy_cupboard_1.png" />
+        <Content Include="icons\piece_alchemy_cupboard_2.png" />
+        <Content Include="icons\piece_alchemy_cupboard_3.png" />
+        <Content Include="icons\piece_alchemy_cupboard_4.png" />
+        <Content Include="icons\piece_alchemy_cupboard_5.png" />
+        <Content Include="icons\piece_alchemy_cupboard_large_preset_1.png" />
+        <Content Include="icons\piece_alchemy_cupboard_large_preset_2.png" />
+        <Content Include="icons\piece_alchemy_cupboard_large_preset_3.png" />
+        <Content Include="icons\piece_alchemy_cupboard_preset_1.png" />
+        <Content Include="icons\piece_alchemy_cupboard_preset_2.png" />
+        <Content Include="icons\piece_alchemy_cupboard_preset_3.png" />
+        <Content Include="icons\piece_alchemy_cupboard_preset_4.png" />
+        <Content Include="icons\piece_alchemy_cupboard_preset_5.png" />
+        <Content Include="icons\piece_alchemy_cupboard_preset_6.png" />
+        <Content Include="icons\piece_alchemy_cupboard_preset_7.png" />
+        <Content Include="icons\piece_alchemy_cupboard_preset_8.png" />
+        <Content Include="icons\piece_alchemy_cupboard_preset_9.png" />
+        <Content Include="icons\piece_alchemy_drawer.png" />
+        <Content Include="icons\piece_alchemy_flask_1.png" />
+        <Content Include="icons\piece_alchemy_flask_2.png" />
+        <Content Include="icons\piece_alchemy_flask_3.png" />
+        <Content Include="icons\piece_alchemy_flask_4.png" />
+        <Content Include="icons\piece_alchemy_flask_5.png" />
+        <Content Include="icons\piece_alchemy_gas_burner.png" />
+        <Content Include="icons\piece_alchemy_glass_jar_1.png" />
+        <Content Include="icons\piece_alchemy_glass_jar_2.png" />
+        <Content Include="icons\piece_alchemy_ink_pot.png" />
+        <Content Include="icons\piece_alchemy_jug_1.png" />
+        <Content Include="icons\piece_alchemy_jug_2.png" />
+        <Content Include="icons\piece_alchemy_jug_3.png" />
+        <Content Include="icons\piece_alchemy_ladder.png" />
+        <Content Include="icons\piece_alchemy_ladder_angled_1.png" />
+        <Content Include="icons\piece_alchemy_ladder_angled_2.png" />
+        <Content Include="icons\piece_alchemy_ladder_angled_3.png" />
+        <Content Include="icons\piece_alchemy_lamp.png" />
+        <Content Include="icons\piece_alchemy_lantern.png" />
+        <Content Include="icons\piece_alchemy_mortar.png" />
+        <Content Include="icons\piece_alchemy_paperstack_1.png" />
+        <Content Include="icons\piece_alchemy_paperstack_2.png" />
+        <Content Include="icons\piece_alchemy_potion_1.png" />
+        <Content Include="icons\piece_alchemy_potion_2.png" />
+        <Content Include="icons\piece_alchemy_potion_3.png" />
+        <Content Include="icons\piece_alchemy_potion_4.png" />
+        <Content Include="icons\piece_alchemy_potion_5.png" />
+        <Content Include="icons\piece_alchemy_potion_6.png" />
+        <Content Include="icons\piece_alchemy_retort.png" />
+        <Content Include="icons\piece_alchemy_rostrum_1.png" />
+        <Content Include="icons\piece_alchemy_rostrum_2.png" />
+        <Content Include="icons\piece_alchemy_sandglass.png" />
+        <Content Include="icons\piece_alchemy_scale_1.png" />
+        <Content Include="icons\piece_alchemy_scroll.png" />
+        <Content Include="icons\piece_alchemy_shelf_1.png" />
+        <Content Include="icons\piece_alchemy_shelf_preset_1.png" />
+        <Content Include="icons\piece_alchemy_shelf_preset_2.png" />
+        <Content Include="icons\piece_alchemy_shelf_preset_3.png" />
+        <Content Include="icons\piece_alchemy_shelf_preset_4.png" />
+        <Content Include="icons\piece_alchemy_stand_1.png" />
+        <Content Include="icons\piece_alchemy_stand_2.png" />
+        <Content Include="icons\piece_alchemy_table_1.png" />
+        <Content Include="icons\piece_alchemy_table_2.png" />
+        <Content Include="icons\piece_alchemy_torch_wall.png" />
         <Content Include="ILRepack.targets"/>
         <Content Include="Libs\ServerSync.dll">
             <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
         </Content>
         <Content Include="README.md"/>
+        <Content Include="Thunderstore\AlchemyProps.dll" />
         <Content Include="Thunderstore\CHANGELOG.md"/>
-        <Content Include="Thunderstore\icon.png"/>
+        <Content Include="Thunderstore\icon.png" />
         <Content Include="Thunderstore\manifest.json"/>
         <EmbeddedResource Include="translations\English.yml"/>
+        <Content Include="Thunderstore\README.md" />
         <Content Include="UpdateManifest.ps1"/>
     </ItemGroup>
     <ItemGroup>
@@ -161,11 +270,6 @@
             <PrivateAssets>all</PrivateAssets>
             <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
         </PackageReference>
-        <PackageReference Include="YamlDotNet" Version="16.3.0"/>
-    </ItemGroup>
-    <ItemGroup>
-        <Folder Include="assets\"/>
-        <Folder Include="icons\"/>
     </ItemGroup>
     <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets"/>
     <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

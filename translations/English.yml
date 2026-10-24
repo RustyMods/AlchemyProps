@@ -1,2 +1,101 @@
-# Ready to use english translation file for the plugin
-# (for more information on LocalizationManager, see the LocalizationManager documentation https://github.com/blaxxun-boop/LocalizationManager#example-project).
+piece_alchemy_book_1: Book
+piece_alchemy_book_2: Book
+piece_alchemy_book_3: Book
+piece_alchemy_book_4: Book
+piece_alchemy_book_5: Book
+piece_alchemy_book_6: Book
+piece_alchemy_book_7: Book
+piece_alchemy_book_8: Book
+piece_alchemy_book_9: Book
+piece_alchemy_book_10: Book
+piece_alchemy_book_11: Book
+piece_alchemy_bookpile_1: Book Pile
+piece_alchemy_bookpile_2: Book Pile
+piece_alchemy_bookpile_3: Book Pile
+piece_alchemy_bookpile_4: Book Pile
+piece_alchemy_bookpile_5: Book Pile
+piece_alchemy_bookpile_6: Book Pile
+piece_alchemy_paperstack_1: Paper Stack
+piece_alchemy_paperstack_2: Paper Stack
+piece_alchemy_scroll: Scroll
+piece_alchemy_bottle_1: Bottle
+piece_alchemy_bottle_2: Bottle
+piece_alchemy_bottle_3: Bottle
+piece_alchemy_cup: Cup
+piece_alchemy_flask_1: Flask
+piece_alchemy_flask_2: Flask
+piece_alchemy_flask_3: Flask
+piece_alchemy_flask_4: Flask
+piece_alchemy_flask_5: Flask
+piece_alchemy_glass_jar_1: Jar
+piece_alchemy_glass_jar_2: Jar
+piece_alchemy_potion_1: Potion
+piece_alchemy_potion_2: Potion
+piece_alchemy_potion_3: Potion
+piece_alchemy_potion_4: Potion
+piece_alchemy_potion_5: Potion
+piece_alchemy_potion_6: Potion
+piece_alchemy_candle_1: Candle
+piece_alchemy_candle_2: Candle
+piece_alchemy_candle_3: Candle
+piece_alchemy_candle_4: Candle
+piece_alchemy_candles_1: Candles
+piece_alchemy_candles_2: Candles
+piece_alchemy_candles_3: Candles
+piece_alchemy_candles_4: Candles
+piece_alchemy_candles_5: Candles
+piece_alchemy_candlestick: Candlestick
+piece_alchemy_candlestick_floor_1: Large Candlestick
+piece_alchemy_candlestick_floor_2: Large Candlestick
+piece_alchemy_bench_1: Bench
+piece_alchemy_bench_2: Bench
+piece_alchemy_rostrum_1: Rostrum
+piece_alchemy_rostrum_2: Preset Rostrum
+piece_alchemy_chair_1: Chair
+piece_alchemy_chair_2: Stool
+piece_alchemy_cupboard_1: Cupboard
+piece_alchemy_cupboard_2: Cupboard
+piece_alchemy_cupboard_3: Cupboard
+piece_alchemy_cupboard_4: Cupboard
+piece_alchemy_cupboard_5: Cupboard
+piece_alchemy_cupboard_preset_1: Preset Cupboard
+piece_alchemy_cupboard_preset_2: Preset Cupboard
+piece_alchemy_cupboard_preset_3: Preset Cupboard
+piece_alchemy_cupboard_preset_4: Preset Cupboard
+piece_alchemy_cupboard_preset_5: Preset Cupboard
+piece_alchemy_cupboard_preset_6: Preset Cupboard
+piece_alchemy_cupboard_preset_7: Preset Cupboard
+piece_alchemy_cupboard_preset_8: Preset Cupboard
+piece_alchemy_cupboard_preset_9: Preset Cupboard
+piece_alchemy_cupboard_large_preset_1: Preset Cupboard
+piece_alchemy_cupboard_large_preset_2: Preset Cupboard
+piece_alchemy_cupboard_large_preset_3: Preset Cupboard
+piece_alchemy_drawer: Drawer
+piece_alchemy_shelf_1: Shelf
+piece_alchemy_shelf_preset_1: Preset Shelf
+piece_alchemy_shelf_preset_2: Preset Shelf
+piece_alchemy_shelf_preset_3: Preset Shelf
+piece_alchemy_shelf_preset_4: Preset Shelf
+piece_alchemy_table_1: Table
+piece_alchemy_table_2: Table
+piece_alchemy_ladder: Ladder
+piece_alchemy_ladder_angled_1: Ladder 26
+piece_alchemy_ladder_angled_2: Ladder 45
+piece_alchemy_ladder_angled_3: Ladder 67
+piece_alchemy_gas_burner: Gas Burner
+piece_alchemy_ink_pot: Ink Pot
+piece_alchemy_mortar: Mortar
+piece_alchemy_retort: Retort
+piece_alchemy_sandglass: Sandglass
+piece_alchemy_scale_1: Scale
+piece_alchemy_jug_1: Jug
+piece_alchemy_jug_2: Jug
+piece_alchemy_jug_3: Jug
+piece_alchemy_stand_1: Stand
+piece_alchemy_stand_2: Stand
+piece_alchemy_barrel_1: Barrel
+piece_alchemy_barrel_2: Barrel
+piece_alchemy_bucket: Bucket
+piece_alchemy_lamp: Lamp
+piece_alchemy_lantern: Lantern
+piece_alchemy_torch_wall: Wall Torch

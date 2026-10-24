@@ -1,5 +1,8 @@
 # AlchemyProps
 
+https://assetstore.unity.com/packages/3d/props/furniture/alchemy-lab-props-41758
+
+
 | Icon | Internal ID | Name | Description | Resources |
 |:---:|:---|:---|:---|:---|
 | ![piece_alchemy_book_1](https://raw.githubusercontent.com/RustyMods/AlchemyProps/master/Icons/piece_alchemy_book_1.png) | `piece_alchemy_book_1` | $piece_alchemy_book_1 | $piece_alchemy_book_1_desc | Wood x 1 |

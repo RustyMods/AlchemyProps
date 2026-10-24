@@ -4,7 +4,7 @@ using System.Linq;
 using HarmonyLib;
 using JetBrains.Annotations;
 using UnityEngine;
-
+#nullable  enable
 namespace PieceManager
 {
     [PublicAPI]
@@ -13,16 +13,21 @@ namespace PieceManager
         private static readonly Dictionary<GameObject, bool> ObjectToSwap;
         private static readonly Dictionary<string, Material> OriginalMaterials;
         private static readonly Dictionary<GameObject, ShaderType> ObjectsForShaderReplace;
-        private static readonly HashSet<Shader> CachedShaders = new();
+        private static readonly HashSet<Shader> CachedShaders;
         private static bool hasRun = false;
+        public static List<MaterialData> materialsToSet;
+
 
         static MaterialReplacer()
         {
             OriginalMaterials = new Dictionary<string, Material>();
             ObjectToSwap = new Dictionary<GameObject, bool>();
             ObjectsForShaderReplace = new Dictionary<GameObject, ShaderType>();
+            materialsToSet = [];
+            CachedShaders = [];
             Harmony harmony = new Harmony("org.bepinex.helpers.PieceManager");
-            harmony.Patch(AccessTools.DeclaredMethod(typeof(ZoneSystem), nameof(ZoneSystem.Start)), postfix: new HarmonyMethod(typeof(MaterialReplacer), nameof(ReplaceAllMaterialsWithOriginal)));
+            harmony.Patch(AccessTools.DeclaredMethod(typeof(ZoneSystem), nameof(ZoneSystem.Start)),
+                postfix: new HarmonyMethod(typeof(MaterialReplacer), nameof(ReplaceAllMaterialsWithOriginal)));
         }
 
         public enum ShaderType
@@ -33,7 +38,8 @@ namespace PieceManager
             RugShader,
             GrassShader,
             CustomCreature,
-            UseUnityShader
+            UseUnityShader,
+            TwoSided
         }
 
         public static void RegisterGameObjectForShaderSwap(GameObject go, ShaderType type)
@@ -64,7 +70,8 @@ namespace PieceManager
         [HarmonyPriority(Priority.VeryHigh)]
         private static void ReplaceAllMaterialsWithOriginal()
         {
-            if (UnityEngine.SystemInfo.graphicsDeviceType == UnityEngine.Rendering.GraphicsDeviceType.Null || hasRun) return;
+            if (UnityEngine.SystemInfo.graphicsDeviceType == UnityEngine.Rendering.GraphicsDeviceType.Null ||
+                hasRun) return;
 
             if (OriginalMaterials.Count == 0) GetAllMaterials();
 
@@ -105,6 +112,11 @@ namespace PieceManager
                 ProcessGameObjectShaders(go, shaderType);
             }
 
+            foreach (var data in materialsToSet)
+            {
+                data.Process();
+            }
+
             hasRun = true;
         }
 
@@ -113,7 +125,8 @@ namespace PieceManager
             var renderers = go.GetComponentsInChildren<Renderer>(true);
             foreach (var renderer in renderers)
             {
-                var newMaterials = renderer.sharedMaterials.Select(material => material == null ? null : ReplaceMaterial(material, isJotunnMock)).ToArray();
+                var newMaterials = renderer.sharedMaterials
+                    .Select(material => material == null ? null : ReplaceMaterial(material, isJotunnMock)).ToArray();
                 renderer.sharedMaterials = newMaterials;
             }
         }
@@ -152,12 +165,16 @@ namespace PieceManager
                     if (material != null)
                     {
                         material.shader = GetShaderForType(material.shader, shaderType, material.shader.name);
+                        if (material.HasProperty("_NoiseTex"))
+                        {
+                            material.SetTexture("_NoiseTex", MaterialData._noiseTex);
+                        }
                     }
                 }
             }
         }
 
-        private static Shader GetShaderForType(Shader orig, ShaderType shaderType, string originalShaderName)
+        public static Shader GetShaderForType(Shader orig, ShaderType shaderType, string originalShaderName)
         {
             switch (shaderType)
             {
@@ -167,7 +184,12 @@ namespace PieceManager
                 case ShaderType.RugShader: return FindShaderWithName(orig, "Custom/Rug");
                 case ShaderType.GrassShader: return FindShaderWithName(orig, "Custom/Grass");
                 case ShaderType.CustomCreature: return FindShaderWithName(orig, "Custom/Creature");
-                case ShaderType.UseUnityShader: return FindShaderWithName(orig, FindShaderWithName(orig, originalShaderName) != null ? originalShaderName : "ToonDeferredShading2017");
+                case ShaderType.TwoSided: return FindShaderWithName(orig, "Standard TwoSided");
+                case ShaderType.UseUnityShader:
+                    return FindShaderWithName(orig,
+                        FindShaderWithName(orig, originalShaderName) != null
+                            ? originalShaderName
+                            : "ToonDeferredShading2017");
                 default: return FindShaderWithName(orig, "Standard");
             }
         }

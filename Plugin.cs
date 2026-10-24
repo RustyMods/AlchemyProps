@@ -10,9 +10,9 @@ public class AlchemyPropsPlugin : BaseUnityPlugin
 {
     internal const string ModName = "AlchemyProps";
     internal const string ModVersion = "1.0.0";
-    internal const string Author = "{RustyMods}";
+    internal const string Author = "RustyMods";
     public const string ModGUID = Author + "." + ModName;
-    private readonly Harmony _harmony = new(ModGUID);
+    public readonly Harmony _harmony = new(ModGUID);
     public static Harmony harmony => instance._harmony;
 
     public static AlchemyPropsPlugin instance;
@@ -20,8 +20,9 @@ public class AlchemyPropsPlugin : BaseUnityPlugin
     public void Awake()
     {
         instance = this;
-        
+        // ReadMeBuilder.Init();
         VersionHandshake.Init();
+        Assets.Setup();
 
         var assembly = Assembly.GetExecutingAssembly();
         _harmony.PatchAll(assembly);

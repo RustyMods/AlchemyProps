@@ -1,22 +1,108 @@
-# All In One -  Manager Template.
+# AlchemyProps
 
-Please see the individual templates for more information on how to use each one. This template is only to set up the project for you. All code provided in this template is example code and might not be needed for your specific use case.
+https://assetstore.unity.com/packages/3d/props/furniture/alchemy-lab-props-41758
 
 
-## Template Links
-- [ItemManager Mod Template](https://github.com/AzumattDev/ItemManagerModTemplate)
-- [CreatureManager Mod Template](https://github.com/AzumattDev/CreatureManagerModTemplate)
-- [SkillManager Mod Template](https://github.com/AzumattDev/SkillManagerModTemplate)
-- [PieceManager Mod Template](https://github.com/AzumattDev/PieceManagerModTemplate)
-- [LocationManager Mod Template](https://github.com/AzumattDev/LocationManagerModTemplate)
-- [StatusEffectManager Mod Template](https://github.com/AzumattDev/StatusEffectManagerModTemplate)
-
-## Original Repos from Blaxxun
-- [ItemManager](https://github.com/blaxxun-boop/ItemManager)
-- [CreatureManager](https://github.com/blaxxun-boop/CreatureManager)
-- [SkillManager](https://github.com/blaxxun-boop/SkillManager)
-- [LocationManager](https://github.com/blaxxun-boop/LocationManager)
-
-## Original Repos from Me
-- [PieceManager](https://github.com/AzumattDev/PieceManager)
-- [StatusEffectManager](https://github.com/AzumattDev/StatusEffectManager)
+| Icon | Internal ID | Name | Description | Resources |
+|:---:|:---|:---|:---|:---|
+| ![piece_alchemy_book_1](https://raw.githubusercontent.com/RustyMods/AlchemyProps/master/Icons/piece_alchemy_book_1.png) | `piece_alchemy_book_1` | $piece_alchemy_book_1 | $piece_alchemy_book_1_desc | Wood x 1 |
+| ![piece_alchemy_book_2](https://raw.githubusercontent.com/RustyMods/AlchemyProps/master/Icons/piece_alchemy_book_2.png) | `piece_alchemy_book_2` | $piece_alchemy_book_2 | $piece_alchemy_book_2_desc | Wood x 1 |
+| ![piece_alchemy_book_3](https://raw.githubusercontent.com/RustyMods/AlchemyProps/master/Icons/piece_alchemy_book_3.png) | `piece_alchemy_book_3` | $piece_alchemy_book_3 | $piece_alchemy_book_3_desc | Wood x 1 |
+| ![piece_alchemy_book_4](https://raw.githubusercontent.com/RustyMods/AlchemyProps/master/Icons/piece_alchemy_book_4.png) | `piece_alchemy_book_4` | $piece_alchemy_book_4 | $piece_alchemy_book_4_desc | Wood x 1 |
+| ![piece_alchemy_book_5](https://raw.githubusercontent.com/RustyMods/AlchemyProps/master/Icons/piece_alchemy_book_5.png) | `piece_alchemy_book_5` | $piece_alchemy_book_5 | $piece_alchemy_book_5_desc | Wood x 1 |
+| ![piece_alchemy_book_6](https://raw.githubusercontent.com/RustyMods/AlchemyProps/master/Icons/piece_alchemy_book_6.png) | `piece_alchemy_book_6` | $piece_alchemy_book_6 | $piece_alchemy_book_6_desc | Wood x 1 |
+| ![piece_alchemy_book_7](https://raw.githubusercontent.com/RustyMods/AlchemyProps/master/Icons/piece_alchemy_book_7.png) | `piece_alchemy_book_7` | $piece_alchemy_book_7 | $piece_alchemy_book_7_desc | Wood x 1 |
+| ![piece_alchemy_book_8](https://raw.githubusercontent.com/RustyMods/AlchemyProps/master/Icons/piece_alchemy_book_8.png) | `piece_alchemy_book_8` | $piece_alchemy_book_8 | $piece_alchemy_book_8_desc | Wood x 1 |
+| ![piece_alchemy_book_9](https://raw.githubusercontent.com/RustyMods/AlchemyProps/master/Icons/piece_alchemy_book_9.png) | `piece_alchemy_book_9` | $piece_alchemy_book_9 | $piece_alchemy_book_9_desc | Wood x 1 |
+| ![piece_alchemy_book_10](https://raw.githubusercontent.com/RustyMods/AlchemyProps/master/Icons/piece_alchemy_book_10.png) | `piece_alchemy_book_10` | $piece_alchemy_book_10 | $piece_alchemy_book_10_desc | Wood x 1 |
+| ![piece_alchemy_book_11](https://raw.githubusercontent.com/RustyMods/AlchemyProps/master/Icons/piece_alchemy_book_11.png) | `piece_alchemy_book_11` | $piece_alchemy_book_11 | $piece_alchemy_book_11_desc | Wood x 1 |
+| ![piece_alchemy_bookpile_1](https://raw.githubusercontent.com/RustyMods/AlchemyProps/master/Icons/piece_alchemy_bookpile_1.png) | `piece_alchemy_bookpile_1` | $piece_alchemy_bookpile_1 | $piece_alchemy_bookpile_1_desc | Wood x 1 |
+| ![piece_alchemy_bookpile_2](https://raw.githubusercontent.com/RustyMods/AlchemyProps/master/Icons/piece_alchemy_bookpile_2.png) | `piece_alchemy_bookpile_2` | $piece_alchemy_bookpile_2 | $piece_alchemy_bookpile_2_desc | Wood x 1 |
+| ![piece_alchemy_bookpile_3](https://raw.githubusercontent.com/RustyMods/AlchemyProps/master/Icons/piece_alchemy_bookpile_3.png) | `piece_alchemy_bookpile_3` | $piece_alchemy_bookpile_3 | $piece_alchemy_bookpile_3_desc | Wood x 1 |
+| ![piece_alchemy_bookpile_4](https://raw.githubusercontent.com/RustyMods/AlchemyProps/master/Icons/piece_alchemy_bookpile_4.png) | `piece_alchemy_bookpile_4` | $piece_alchemy_bookpile_4 | $piece_alchemy_bookpile_4_desc | Wood x 1 |
+| ![piece_alchemy_bookpile_5](https://raw.githubusercontent.com/RustyMods/AlchemyProps/master/Icons/piece_alchemy_bookpile_5.png) | `piece_alchemy_bookpile_5` | $piece_alchemy_bookpile_5 | $piece_alchemy_bookpile_5_desc | Wood x 1 |
+| ![piece_alchemy_bookpile_6](https://raw.githubusercontent.com/RustyMods/AlchemyProps/master/Icons/piece_alchemy_bookpile_6.png) | `piece_alchemy_bookpile_6` | $piece_alchemy_bookpile_6 | $piece_alchemy_bookpile_6_desc | Wood x 1 |
+| ![piece_alchemy_paperstack_1](https://raw.githubusercontent.com/RustyMods/AlchemyProps/master/Icons/piece_alchemy_paperstack_1.png) | `piece_alchemy_paperstack_1` | $piece_alchemy_paperstack_1 | $piece_alchemy_paperstack_1_desc | Wood x 1 |
+| ![piece_alchemy_paperstack_2](https://raw.githubusercontent.com/RustyMods/AlchemyProps/master/Icons/piece_alchemy_paperstack_2.png) | `piece_alchemy_paperstack_2` | $piece_alchemy_paperstack_2 | $piece_alchemy_paperstack_2_desc | Wood x 1 |
+| ![piece_alchemy_scroll](https://raw.githubusercontent.com/RustyMods/AlchemyProps/master/Icons/piece_alchemy_scroll.png) | `piece_alchemy_scroll` | $piece_alchemy_scroll | $piece_alchemy_scroll_desc | Wood x 1 |
+| ![piece_alchemy_bottle_1](https://raw.githubusercontent.com/RustyMods/AlchemyProps/master/Icons/piece_alchemy_bottle_1.png) | `piece_alchemy_bottle_1` | $piece_alchemy_bottle_1 | $piece_alchemy_bottle_1_desc | Crystal x 1 |
+| ![piece_alchemy_bottle_2](https://raw.githubusercontent.com/RustyMods/AlchemyProps/master/Icons/piece_alchemy_bottle_2.png) | `piece_alchemy_bottle_2` | $piece_alchemy_bottle_2 | $piece_alchemy_bottle_2_desc | Crystal x 1 |
+| ![piece_alchemy_bottle_3](https://raw.githubusercontent.com/RustyMods/AlchemyProps/master/Icons/piece_alchemy_bottle_3.png) | `piece_alchemy_bottle_3` | $piece_alchemy_bottle_3 | $piece_alchemy_bottle_3_desc | Crystal x 1 |
+| ![piece_alchemy_cup](https://raw.githubusercontent.com/RustyMods/AlchemyProps/master/Icons/piece_alchemy_cup.png) | `piece_alchemy_cup` | $piece_alchemy_cup | $piece_alchemy_cup_desc | Wood x 1 |
+| ![piece_alchemy_flask_1](https://raw.githubusercontent.com/RustyMods/AlchemyProps/master/Icons/piece_alchemy_flask_1.png) | `piece_alchemy_flask_1` | $piece_alchemy_flask_1 | $piece_alchemy_flask_1_desc | Crystal x 1 |
+| ![piece_alchemy_flask_2](https://raw.githubusercontent.com/RustyMods/AlchemyProps/master/Icons/piece_alchemy_flask_2.png) | `piece_alchemy_flask_2` | $piece_alchemy_flask_2 | $piece_alchemy_flask_2_desc | Crystal x 1 |
+| ![piece_alchemy_flask_3](https://raw.githubusercontent.com/RustyMods/AlchemyProps/master/Icons/piece_alchemy_flask_3.png) | `piece_alchemy_flask_3` | $piece_alchemy_flask_3 | $piece_alchemy_flask_3_desc | Crystal x 1 |
+| ![piece_alchemy_flask_4](https://raw.githubusercontent.com/RustyMods/AlchemyProps/master/Icons/piece_alchemy_flask_4.png) | `piece_alchemy_flask_4` | $piece_alchemy_flask_4 | $piece_alchemy_flask_4_desc | Crystal x 1 |
+| ![piece_alchemy_flask_5](https://raw.githubusercontent.com/RustyMods/AlchemyProps/master/Icons/piece_alchemy_flask_5.png) | `piece_alchemy_flask_5` | $piece_alchemy_flask_5 | $piece_alchemy_flask_5_desc | Crystal x 1 |
+| ![piece_alchemy_glass_jar_1](https://raw.githubusercontent.com/RustyMods/AlchemyProps/master/Icons/piece_alchemy_glass_jar_1.png) | `piece_alchemy_glass_jar_1` | $piece_alchemy_glass_jar_1 | $piece_alchemy_glass_jar_1_desc | Crystal x 1 |
+| ![piece_alchemy_glass_jar_2](https://raw.githubusercontent.com/RustyMods/AlchemyProps/master/Icons/piece_alchemy_glass_jar_2.png) | `piece_alchemy_glass_jar_2` | $piece_alchemy_glass_jar_2 | $piece_alchemy_glass_jar_2_desc | Crystal x 1 |
+| ![piece_alchemy_potion_1](https://raw.githubusercontent.com/RustyMods/AlchemyProps/master/Icons/piece_alchemy_potion_1.png) | `piece_alchemy_potion_1` | $piece_alchemy_potion_1 | $piece_alchemy_potion_1_desc | Crystal x 1 |
+| ![piece_alchemy_potion_2](https://raw.githubusercontent.com/RustyMods/AlchemyProps/master/Icons/piece_alchemy_potion_2.png) | `piece_alchemy_potion_2` | $piece_alchemy_potion_2 | $piece_alchemy_potion_2_desc | Crystal x 1 |
+| ![piece_alchemy_potion_3](https://raw.githubusercontent.com/RustyMods/AlchemyProps/master/Icons/piece_alchemy_potion_3.png) | `piece_alchemy_potion_3` | $piece_alchemy_potion_3 | $piece_alchemy_potion_3_desc | Crystal x 1 |
+| ![piece_alchemy_potion_4](https://raw.githubusercontent.com/RustyMods/AlchemyProps/master/Icons/piece_alchemy_potion_4.png) | `piece_alchemy_potion_4` | $piece_alchemy_potion_4 | $piece_alchemy_potion_4_desc | Crystal x 1 |
+| ![piece_alchemy_potion_5](https://raw.githubusercontent.com/RustyMods/AlchemyProps/master/Icons/piece_alchemy_potion_5.png) | `piece_alchemy_potion_5` | $piece_alchemy_potion_5 | $piece_alchemy_potion_5_desc | Crystal x 1 |
+| ![piece_alchemy_potion_6](https://raw.githubusercontent.com/RustyMods/AlchemyProps/master/Icons/piece_alchemy_potion_6.png) | `piece_alchemy_potion_6` | $piece_alchemy_potion_6 | $piece_alchemy_potion_6_desc | Crystal x 1 |
+| ![piece_alchemy_candle_1](https://raw.githubusercontent.com/RustyMods/AlchemyProps/master/Icons/piece_alchemy_candle_1.png) | `piece_alchemy_candle_1` | $piece_alchemy_candle_1 | $piece_alchemy_candle_1_desc | Wood x 1 |
+| ![piece_alchemy_candle_2](https://raw.githubusercontent.com/RustyMods/AlchemyProps/master/Icons/piece_alchemy_candle_2.png) | `piece_alchemy_candle_2` | $piece_alchemy_candle_2 | $piece_alchemy_candle_2_desc | Wood x 1 |
+| ![piece_alchemy_candle_3](https://raw.githubusercontent.com/RustyMods/AlchemyProps/master/Icons/piece_alchemy_candle_3.png) | `piece_alchemy_candle_3` | $piece_alchemy_candle_3 | $piece_alchemy_candle_3_desc | Wood x 1 |
+| ![piece_alchemy_candle_4](https://raw.githubusercontent.com/RustyMods/AlchemyProps/master/Icons/piece_alchemy_candle_4.png) | `piece_alchemy_candle_4` | $piece_alchemy_candle_4 | $piece_alchemy_candle_4_desc | Wood x 1 |
+| ![piece_alchemy_candles_1](https://raw.githubusercontent.com/RustyMods/AlchemyProps/master/Icons/piece_alchemy_candles_1.png) | `piece_alchemy_candles_1` | $piece_alchemy_candles_1 | $piece_alchemy_candles_1_desc | Wood x 1 |
+| ![piece_alchemy_candles_2](https://raw.githubusercontent.com/RustyMods/AlchemyProps/master/Icons/piece_alchemy_candles_2.png) | `piece_alchemy_candles_2` | $piece_alchemy_candles_2 | $piece_alchemy_candles_2_desc | Wood x 1 |
+| ![piece_alchemy_candles_3](https://raw.githubusercontent.com/RustyMods/AlchemyProps/master/Icons/piece_alchemy_candles_3.png) | `piece_alchemy_candles_3` | $piece_alchemy_candles_3 | $piece_alchemy_candles_3_desc | Wood x 1 |
+| ![piece_alchemy_candles_4](https://raw.githubusercontent.com/RustyMods/AlchemyProps/master/Icons/piece_alchemy_candles_4.png) | `piece_alchemy_candles_4` | $piece_alchemy_candles_4 | $piece_alchemy_candles_4_desc | Wood x 1 |
+| ![piece_alchemy_candles_5](https://raw.githubusercontent.com/RustyMods/AlchemyProps/master/Icons/piece_alchemy_candles_5.png) | `piece_alchemy_candles_5` | $piece_alchemy_candles_5 | $piece_alchemy_candles_5_desc | Wood x 1 |
+| ![piece_alchemy_candlestick](https://raw.githubusercontent.com/RustyMods/AlchemyProps/master/Icons/piece_alchemy_candlestick.png) | `piece_alchemy_candlestick` | $piece_alchemy_candlestick | $piece_alchemy_candlestick_desc | Wood x 1 |
+| ![piece_alchemy_candlestick_floor_1](https://raw.githubusercontent.com/RustyMods/AlchemyProps/master/Icons/piece_alchemy_candlestick_floor_1.png) | `piece_alchemy_candlestick_floor_1` | $piece_alchemy_candlestick_floor_1 | $piece_alchemy_candlestick_floor_1_desc | Wood x 1 |
+| ![piece_alchemy_candlestick_floor_2](https://raw.githubusercontent.com/RustyMods/AlchemyProps/master/Icons/piece_alchemy_candlestick_floor_2.png) | `piece_alchemy_candlestick_floor_2` | $piece_alchemy_candlestick_floor_2 | $piece_alchemy_candlestick_floor_2_desc | Wood x 1 |
+| ![piece_alchemy_bench_1](https://raw.githubusercontent.com/RustyMods/AlchemyProps/master/Icons/piece_alchemy_bench_1.png) | `piece_alchemy_bench_1` | $piece_alchemy_bench_1 | $piece_alchemy_bench_1_desc | FineWood x 6 |
+| ![piece_alchemy_bench_2](https://raw.githubusercontent.com/RustyMods/AlchemyProps/master/Icons/piece_alchemy_bench_2.png) | `piece_alchemy_bench_2` | $piece_alchemy_bench_2 | $piece_alchemy_bench_2_desc | FineWood x 6 |
+| ![piece_alchemy_rostrum_1](https://raw.githubusercontent.com/RustyMods/AlchemyProps/master/Icons/piece_alchemy_rostrum_1.png) | `piece_alchemy_rostrum_1` | $piece_alchemy_rostrum_1 | $piece_alchemy_rostrum_1_desc | Wood x 1 |
+| ![piece_alchemy_rostrum_2](https://raw.githubusercontent.com/RustyMods/AlchemyProps/master/Icons/piece_alchemy_rostrum_2.png) | `piece_alchemy_rostrum_2` | $piece_alchemy_rostrum_2 | $piece_alchemy_rostrum_2_desc | Wood x 1 |
+| ![piece_alchemy_chair_1](https://raw.githubusercontent.com/RustyMods/AlchemyProps/master/Icons/piece_alchemy_chair_1.png) | `piece_alchemy_chair_1` | $piece_alchemy_chair_1 | $piece_alchemy_chair_1_desc | FineWood x 4 |
+| ![piece_alchemy_chair_2](https://raw.githubusercontent.com/RustyMods/AlchemyProps/master/Icons/piece_alchemy_chair_2.png) | `piece_alchemy_chair_2` | $piece_alchemy_chair_2 | $piece_alchemy_chair_2_desc | FineWood x 4 |
+| ![piece_alchemy_cupboard_1](https://raw.githubusercontent.com/RustyMods/AlchemyProps/master/Icons/piece_alchemy_cupboard_1.png) | `piece_alchemy_cupboard_1` | $piece_alchemy_cupboard_1 | $piece_alchemy_cupboard_1_desc | Wood x 1 |
+| ![piece_alchemy_cupboard_2](https://raw.githubusercontent.com/RustyMods/AlchemyProps/master/Icons/piece_alchemy_cupboard_2.png) | `piece_alchemy_cupboard_2` | $piece_alchemy_cupboard_2 | $piece_alchemy_cupboard_2_desc | Wood x 1 |
+| ![piece_alchemy_cupboard_3](https://raw.githubusercontent.com/RustyMods/AlchemyProps/master/Icons/piece_alchemy_cupboard_3.png) | `piece_alchemy_cupboard_3` | $piece_alchemy_cupboard_3 | $piece_alchemy_cupboard_3_desc | Wood x 1 |
+| ![piece_alchemy_cupboard_4](https://raw.githubusercontent.com/RustyMods/AlchemyProps/master/Icons/piece_alchemy_cupboard_4.png) | `piece_alchemy_cupboard_4` | $piece_alchemy_cupboard_4 | $piece_alchemy_cupboard_4_desc | Wood x 1 |
+| ![piece_alchemy_cupboard_5](https://raw.githubusercontent.com/RustyMods/AlchemyProps/master/Icons/piece_alchemy_cupboard_5.png) | `piece_alchemy_cupboard_5` | $piece_alchemy_cupboard_5 | $piece_alchemy_cupboard_5_desc | Wood x 1 |
+| ![piece_alchemy_cupboard_preset_1](https://raw.githubusercontent.com/RustyMods/AlchemyProps/master/Icons/piece_alchemy_cupboard_preset_1.png) | `piece_alchemy_cupboard_preset_1` | $piece_alchemy_cupboard_preset_1 | $piece_alchemy_cupboard_preset_1_desc | Wood x 1 |
+| ![piece_alchemy_cupboard_preset_2](https://raw.githubusercontent.com/RustyMods/AlchemyProps/master/Icons/piece_alchemy_cupboard_preset_2.png) | `piece_alchemy_cupboard_preset_2` | $piece_alchemy_cupboard_preset_2 | $piece_alchemy_cupboard_preset_2_desc | Wood x 1 |
+| ![piece_alchemy_cupboard_preset_3](https://raw.githubusercontent.com/RustyMods/AlchemyProps/master/Icons/piece_alchemy_cupboard_preset_3.png) | `piece_alchemy_cupboard_preset_3` | $piece_alchemy_cupboard_preset_3 | $piece_alchemy_cupboard_preset_3_desc | Wood x 1 |
+| ![piece_alchemy_cupboard_preset_4](https://raw.githubusercontent.com/RustyMods/AlchemyProps/master/Icons/piece_alchemy_cupboard_preset_4.png) | `piece_alchemy_cupboard_preset_4` | $piece_alchemy_cupboard_preset_4 | $piece_alchemy_cupboard_preset_4_desc | Wood x 1 |
+| ![piece_alchemy_cupboard_preset_5](https://raw.githubusercontent.com/RustyMods/AlchemyProps/master/Icons/piece_alchemy_cupboard_preset_5.png) | `piece_alchemy_cupboard_preset_5` | $piece_alchemy_cupboard_preset_5 | $piece_alchemy_cupboard_preset_5_desc | Wood x 1 |
+| ![piece_alchemy_cupboard_preset_6](https://raw.githubusercontent.com/RustyMods/AlchemyProps/master/Icons/piece_alchemy_cupboard_preset_6.png) | `piece_alchemy_cupboard_preset_6` | $piece_alchemy_cupboard_preset_6 | $piece_alchemy_cupboard_preset_6_desc | Wood x 1 |
+| ![piece_alchemy_cupboard_preset_7](https://raw.githubusercontent.com/RustyMods/AlchemyProps/master/Icons/piece_alchemy_cupboard_preset_7.png) | `piece_alchemy_cupboard_preset_7` | $piece_alchemy_cupboard_preset_7 | $piece_alchemy_cupboard_preset_7_desc | Wood x 1 |
+| ![piece_alchemy_cupboard_preset_8](https://raw.githubusercontent.com/RustyMods/AlchemyProps/master/Icons/piece_alchemy_cupboard_preset_8.png) | `piece_alchemy_cupboard_preset_8` | $piece_alchemy_cupboard_preset_8 | $piece_alchemy_cupboard_preset_8_desc | Wood x 1 |
+| ![piece_alchemy_cupboard_preset_9](https://raw.githubusercontent.com/RustyMods/AlchemyProps/master/Icons/piece_alchemy_cupboard_preset_9.png) | `piece_alchemy_cupboard_preset_9` | $piece_alchemy_cupboard_preset_9 | $piece_alchemy_cupboard_preset_9_desc | Wood x 1 |
+| ![piece_alchemy_cupboard_large_preset_1](https://raw.githubusercontent.com/RustyMods/AlchemyProps/master/Icons/piece_alchemy_cupboard_large_preset_1.png) | `piece_alchemy_cupboard_large_preset_1` | $piece_alchemy_cupboard_large_preset_1 | $piece_alchemy_cupboard_large_preset_1_desc | Wood x 1 |
+| ![piece_alchemy_cupboard_large_preset_2](https://raw.githubusercontent.com/RustyMods/AlchemyProps/master/Icons/piece_alchemy_cupboard_large_preset_2.png) | `piece_alchemy_cupboard_large_preset_2` | $piece_alchemy_cupboard_large_preset_2 | $piece_alchemy_cupboard_large_preset_2_desc | Wood x 1 |
+| ![piece_alchemy_cupboard_large_preset_3](https://raw.githubusercontent.com/RustyMods/AlchemyProps/master/Icons/piece_alchemy_cupboard_large_preset_3.png) | `piece_alchemy_cupboard_large_preset_3` | $piece_alchemy_cupboard_large_preset_3 | $piece_alchemy_cupboard_large_preset_3_desc | Wood x 1 |
+| ![piece_alchemy_drawer](https://raw.githubusercontent.com/RustyMods/AlchemyProps/master/Icons/piece_alchemy_drawer.png) | `piece_alchemy_drawer` | $piece_alchemy_drawer | $piece_alchemy_drawer_desc | Wood x 1 |
+| ![piece_alchemy_shelf_1](https://raw.githubusercontent.com/RustyMods/AlchemyProps/master/Icons/piece_alchemy_shelf_1.png) | `piece_alchemy_shelf_1` | $piece_alchemy_shelf_1 | $piece_alchemy_shelf_1_desc | Wood x 1 |
+| ![piece_alchemy_shelf_preset_1](https://raw.githubusercontent.com/RustyMods/AlchemyProps/master/Icons/piece_alchemy_shelf_preset_1.png) | `piece_alchemy_shelf_preset_1` | $piece_alchemy_shelf_preset_1 | $piece_alchemy_shelf_preset_1_desc | Wood x 1 |
+| ![piece_alchemy_shelf_preset_2](https://raw.githubusercontent.com/RustyMods/AlchemyProps/master/Icons/piece_alchemy_shelf_preset_2.png) | `piece_alchemy_shelf_preset_2` | $piece_alchemy_shelf_preset_2 | $piece_alchemy_shelf_preset_2_desc | Wood x 1 |
+| ![piece_alchemy_shelf_preset_3](https://raw.githubusercontent.com/RustyMods/AlchemyProps/master/Icons/piece_alchemy_shelf_preset_3.png) | `piece_alchemy_shelf_preset_3` | $piece_alchemy_shelf_preset_3 | $piece_alchemy_shelf_preset_3_desc | Wood x 1 |
+| ![piece_alchemy_shelf_preset_4](https://raw.githubusercontent.com/RustyMods/AlchemyProps/master/Icons/piece_alchemy_shelf_preset_4.png) | `piece_alchemy_shelf_preset_4` | $piece_alchemy_shelf_preset_4 | $piece_alchemy_shelf_preset_4_desc | Wood x 1 |
+| ![piece_alchemy_table_1](https://raw.githubusercontent.com/RustyMods/AlchemyProps/master/Icons/piece_alchemy_table_1.png) | `piece_alchemy_table_1` | $piece_alchemy_table_1 | $piece_alchemy_table_1_desc | Wood x 1 |
+| ![piece_alchemy_table_2](https://raw.githubusercontent.com/RustyMods/AlchemyProps/master/Icons/piece_alchemy_table_2.png) | `piece_alchemy_table_2` | $piece_alchemy_table_2 | $piece_alchemy_table_2_desc | Wood x 1 |
+| ![piece_alchemy_ladder](https://raw.githubusercontent.com/RustyMods/AlchemyProps/master/Icons/piece_alchemy_ladder.png) | `piece_alchemy_ladder` | $piece_alchemy_ladder | $piece_alchemy_ladder_desc | Wood x 1 |
+| ![piece_alchemy_ladder_angled_1](https://raw.githubusercontent.com/RustyMods/AlchemyProps/master/Icons/piece_alchemy_ladder_angled_1.png) | `piece_alchemy_ladder_angled_1` | $piece_alchemy_ladder_angled_1 | $piece_alchemy_ladder_angled_1_desc | Wood x 1 |
+| ![piece_alchemy_ladder_angled_2](https://raw.githubusercontent.com/RustyMods/AlchemyProps/master/Icons/piece_alchemy_ladder_angled_2.png) | `piece_alchemy_ladder_angled_2` | $piece_alchemy_ladder_angled_2 | $piece_alchemy_ladder_angled_2_desc | Wood x 1 |
+| ![piece_alchemy_ladder_angled_3](https://raw.githubusercontent.com/RustyMods/AlchemyProps/master/Icons/piece_alchemy_ladder_angled_3.png) | `piece_alchemy_ladder_angled_3` | $piece_alchemy_ladder_angled_3 | $piece_alchemy_ladder_angled_3_desc | Wood x 1 |
+| ![piece_alchemy_gas_burner](https://raw.githubusercontent.com/RustyMods/AlchemyProps/master/Icons/piece_alchemy_gas_burner.png) | `piece_alchemy_gas_burner` | $piece_alchemy_gas_burner | $piece_alchemy_gas_burner_desc | Wood x 1 |
+| ![piece_alchemy_ink_pot](https://raw.githubusercontent.com/RustyMods/AlchemyProps/master/Icons/piece_alchemy_ink_pot.png) | `piece_alchemy_ink_pot` | $piece_alchemy_ink_pot | $piece_alchemy_ink_pot_desc | Wood x 1 |
+| ![piece_alchemy_mortar](https://raw.githubusercontent.com/RustyMods/AlchemyProps/master/Icons/piece_alchemy_mortar.png) | `piece_alchemy_mortar` | $piece_alchemy_mortar | $piece_alchemy_mortar_desc | Wood x 1 |
+| ![piece_alchemy_retort](https://raw.githubusercontent.com/RustyMods/AlchemyProps/master/Icons/piece_alchemy_retort.png) | `piece_alchemy_retort` | $piece_alchemy_retort | $piece_alchemy_retort_desc | Wood x 1 |
+| ![piece_alchemy_sandglass](https://raw.githubusercontent.com/RustyMods/AlchemyProps/master/Icons/piece_alchemy_sandglass.png) | `piece_alchemy_sandglass` | $piece_alchemy_sandglass | $piece_alchemy_sandglass_desc | Wood x 1 |
+| ![piece_alchemy_scale_1](https://raw.githubusercontent.com/RustyMods/AlchemyProps/master/Icons/piece_alchemy_scale_1.png) | `piece_alchemy_scale_1` | $piece_alchemy_scale_1 | $piece_alchemy_scale_1_desc | Wood x 1 |
+| ![piece_alchemy_jug_1](https://raw.githubusercontent.com/RustyMods/AlchemyProps/master/Icons/piece_alchemy_jug_1.png) | `piece_alchemy_jug_1` | $piece_alchemy_jug_1 | $piece_alchemy_jug_1_desc | Wood x 1 |
+| ![piece_alchemy_jug_2](https://raw.githubusercontent.com/RustyMods/AlchemyProps/master/Icons/piece_alchemy_jug_2.png) | `piece_alchemy_jug_2` | $piece_alchemy_jug_2 | $piece_alchemy_jug_2_desc | Wood x 1 |
+| ![piece_alchemy_jug_3](https://raw.githubusercontent.com/RustyMods/AlchemyProps/master/Icons/piece_alchemy_jug_3.png) | `piece_alchemy_jug_3` | $piece_alchemy_jug_3 | $piece_alchemy_jug_3_desc | Wood x 1 |
+| ![piece_alchemy_stand_1](https://raw.githubusercontent.com/RustyMods/AlchemyProps/master/Icons/piece_alchemy_stand_1.png) | `piece_alchemy_stand_1` | $piece_alchemy_stand_1 | $piece_alchemy_stand_1_desc | Copper x 1 |
+| ![piece_alchemy_stand_2](https://raw.githubusercontent.com/RustyMods/AlchemyProps/master/Icons/piece_alchemy_stand_2.png) | `piece_alchemy_stand_2` | $piece_alchemy_stand_2 | $piece_alchemy_stand_2_desc | Copper x 1 |
+| ![piece_alchemy_barrel_1](https://raw.githubusercontent.com/RustyMods/AlchemyProps/master/Icons/piece_alchemy_barrel_1.png) | `piece_alchemy_barrel_1` | $piece_alchemy_barrel_1 | $piece_alchemy_barrel_1_desc | Wood x 10 |
+| ![piece_alchemy_barrel_2](https://raw.githubusercontent.com/RustyMods/AlchemyProps/master/Icons/piece_alchemy_barrel_2.png) | `piece_alchemy_barrel_2` | $piece_alchemy_barrel_2 | $piece_alchemy_barrel_2_desc | Wood x 10 |
+| ![piece_alchemy_bucket](https://raw.githubusercontent.com/RustyMods/AlchemyProps/master/Icons/piece_alchemy_bucket.png) | `piece_alchemy_bucket` | $piece_alchemy_bucket | $piece_alchemy_bucket_desc | Wood x 1 |
+| ![piece_alchemy_lamp](https://raw.githubusercontent.com/RustyMods/AlchemyProps/master/Icons/piece_alchemy_lamp.png) | `piece_alchemy_lamp` | $piece_alchemy_lamp | $piece_alchemy_lamp_desc | Iron x 1, Resin x 1 |
+| ![piece_alchemy_lantern](https://raw.githubusercontent.com/RustyMods/AlchemyProps/master/Icons/piece_alchemy_lantern.png) | `piece_alchemy_lantern` | $piece_alchemy_lantern | $piece_alchemy_lantern_desc | Iron x 1, Resin x 1 |
+| ![piece_alchemy_torch_wall](https://raw.githubusercontent.com/RustyMods/AlchemyProps/master/Icons/piece_alchemy_torch_wall.png) | `piece_alchemy_torch_wall` | $piece_alchemy_torch_wall | $piece_alchemy_torch_wall_desc | Iron x 1, Resin x 1 |

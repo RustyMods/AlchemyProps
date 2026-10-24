@@ -2,7 +2,7 @@ using UnityEngine;
 
 namespace AlchemyProps;
 
-public class Candle : MonoBehaviour, Interactable, Hoverable
+public class LightToggle : MonoBehaviour, Interactable, Hoverable
 {
     public Piece m_piece;
     public ZNetView m_nview;
