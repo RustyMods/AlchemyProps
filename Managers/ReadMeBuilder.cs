@@ -66,7 +66,7 @@ public static class ReadMeBuilder
             var internalId = component.name;
             var unLocalizedName = component.m_name;
             var unLocalizedDescription = component.m_description;
-            var iconUrl = $"https://raw.githubusercontent.com/RustyMods/{AlchemyPropsPlugin.ModName}/master/Icons/" + component.name + ".png";
+            var iconUrl = $"https://raw.githubusercontent.com/RustyMods/{AlchemyPropsPlugin.ModName}/refs/heads/master/icons/" + component.name + ".png";
             var resources = string.Join(", ", build.RequiredItems.Requirements.Select(r => $"{r.itemName} x {r.amount}"));
 
             if (exportSprites)

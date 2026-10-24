@@ -20,7 +20,7 @@ public class AlchemyPropsPlugin : BaseUnityPlugin
     public void Awake()
     {
         instance = this;
-        // ReadMeBuilder.Init();
+        // ReadMeBuilder.Init(false);
         VersionHandshake.Init();
         Assets.Setup();
 
